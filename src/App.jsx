@@ -1,9 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import ButtonComponent from './components/ButtonComponent'
-import PhraseComponent from './components/PhraseComponent'
 import quotes from './utils/quotes.json'
-import getRandomArray from './utils/getRandomArray'
 
 function App() {
 

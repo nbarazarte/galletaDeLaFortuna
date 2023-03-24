@@ -1,7 +1,5 @@
 const PhraseComponent = ({phrase}) => {
 
-
-
   return (
     <div>
         <p>
