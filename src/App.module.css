@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -50,17 +50,20 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: red; */
 }
 
 .quotes__phrase {
-    margin: 1rem;
-    padding: 0.5rem;
-    background-color: white;
-    color: black!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    color: gray;
     max-width: 600px;
     min-width: 260px;
-    min-height: 300px;
-    
+    height: 360px;
+    background-color: #ffffff;
 }
 
 .quotes__button {
@@ -73,8 +76,24 @@ h1{
     cursor: pointer;    
 }
 
+.quotationMarks{
+    position: relative;
+    right: 0px;
+    bottom: -160px;
+    /* background-color: red; */
+    font-family: 'Passion One', cursive;
+    font-size: 80px;
+}
+
 @media (min-width: 700px) {
     .quotes__phrase {
         min-width: 600px;
+        height: 200px;
     }
+
+    .quotationMarks{
+        position: relative;
+        right: 0;
+        bottom: -70px;
+    }    
 }
