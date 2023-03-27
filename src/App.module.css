@@ -83,8 +83,9 @@ h1{
 .quotes__button {
     background-color: #C2E7FF;
     color: #706F6F;
-    font-family: var(--fontFamily);
-    font-size: 2rem;
+    /* font-family: var(--fontFamily); */
+    font-size: 1.5rem;
+    font-weight: bold;
     border: 6px solid white;
     border-radius: 15px;
     width: 300px;
