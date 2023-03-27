@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
 }
 
-.cookies{
-    /* background-image: url('./assets/img/fondo1.jpg'); */
+:root{
+    --fontFamily: 'Fredoka', sans-serif;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontFamily);
+    font-size: 1.3rem;
+    letter-spacing: 2px;    
+}
+
+.cookies{    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -71,6 +83,8 @@ h1{
 .quotes__button {
     background-color: #C2E7FF;
     color: #706F6F;
+    font-family: var(--fontFamily);
+    font-size: 2rem;
     border: 6px solid white;
     border-radius: 15px;
     width: 300px;
